@@ -14,7 +14,7 @@ If you're having port conflicts, run `net stop HTTP` in an admin prompt.
 
 ```toml
 [dependencies]
-echovr = "0.2"
+echovr = "0.2.1"
 ```
 
 ```rust
