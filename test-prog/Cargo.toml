@@ -1,0 +1,10 @@
+[package]
+name = "test-prog"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+echovr = { path = ".." }
+eframe = "0.31"
+egui = "0.31"
+tts = "0.26"

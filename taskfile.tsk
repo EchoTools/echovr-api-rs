@@ -1,0 +1,4 @@
+runtest {
+    @default
+    cargo run -p test-prog
+}

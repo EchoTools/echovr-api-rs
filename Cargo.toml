@@ -1,0 +1,17 @@
+[package]
+name = "echovr"
+version = "0.2.0"
+edition = "2024"
+description = "Rust bindings for the Echo VR HTTP API"
+license = "GPL-3.0"
+repository = "https://github.com/echotools/echovr-api-rs"
+keywords = ["echovr", "echo-arena", "vr", "gaming"]
+categories = ["api-bindings", "game-development"]
+
+[workspace]
+members = [".", "test-prog"]
+
+[dependencies]
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.150"
+ureq = { version = "3.3.0", default-features = false }
